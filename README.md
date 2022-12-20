@@ -18,7 +18,7 @@ Kelas   : TI.22.A.3
 | 5  | user defined exceptions |  [Click Here](https://github.com/MohamadIrvanZidni/Praktikum9#user-defined-exceptions)  |
 
 
-Python menyediakan 2 fitur paling penting untuk menangani unexpected error untuk Python yaitu
+Python menyediakan 2 fitur yang penting untuk menangani unexpected error dalam program yaitu :
 
 1. Exception Handling
 2. Assertions
