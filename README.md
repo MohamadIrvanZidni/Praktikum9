@@ -8,7 +8,15 @@ NIM     : 312210308
 
 Kelas   : TI.22.A.3
 
-# COMING SOON!!!
+
+| No | Daftar Isi | Link |
+| -- | ---------- | ---- |
+| 1  | Assetions in Python |  [Click Here](https://github.com/MohamadIrvanZidni/Praktikum9#assertions-in-python)  |
+| 2  | try...except |  [Click Here](https://github.com/MohamadIrvanZidni/Praktikum9#tryexcept)  | 
+| 3  | try-finally |  [Click Here](https://github.com/MohamadIrvanZidni/Praktikum9#try-finally)  |
+| 4  | raise |  [Click Here](https://github.com/MohamadIrvanZidni/Praktikum9#raise)  |
+| 5  | user defined exceptions |  [Click Here](https://github.com/MohamadIrvanZidni/Praktikum9#user-defined-exceptions)  |
+
 
 Python menyediakan 2 fitur paling penting untuk menangani unexpected error untuk Python yaitu
 
