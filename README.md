@@ -42,6 +42,8 @@ contohnya:
 
 ### try...except
 
+Blok try except memungkinkan untuk menguji blok kode untuk kesalahan dan menangani kesalahan
+
 Contoh syntax nya:
 
 	try:
@@ -70,6 +72,8 @@ Contoh:
 	    fh.close()
 
 ### try-finally
+
+Blok try finally memungkinkan untuk menguji blok kode untuk kesalahan dan mengeksekusi kode, terlepas dari hasil blok try- dan except
 
 Contoh syntax nya
 
@@ -100,6 +104,8 @@ Contoh lainnya:
 	    print("ERROR: CANNOT FIND THE FILE OR DATA")
 
 ### Raise
+
+kita manfaatkan untuk membantu penangan error adalah dengan menggunakan statement raise yang dapat mengeluarkan error secara sengaja. Biasanya raise ini digunakan bersama dengan if..else atau pemeriksaan kondisi lainnya
 
 Contoh syntax:
 
