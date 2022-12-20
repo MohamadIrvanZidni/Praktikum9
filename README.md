@@ -23,7 +23,7 @@ Python menyediakan 2 fitur yang penting untuk menangani unexpected error dalam p
 1. Exception Handling
 2. Assertions
 
-### Assertions in Python
+## Assertions in Python
 Assertions Exception adalah sebuah peristiwa, yang terjadi selama pelaksanaan program yang mengganggu aliran normal instruksi program
 
 Syntax untuk assert
@@ -40,7 +40,7 @@ contohnya:
 	print (int(KtoF(505.78)))
 	print (KtoF(-5))
 
-### try...except
+## try...except
 
 Blok try except memungkinkan untuk menguji blok kode untuk kesalahan dan menangani kesalahan
 
@@ -71,7 +71,7 @@ Contoh:
 	    print("Konten berhasil di-write")
 	    fh.close()
 
-### try-finally
+## try-finally
 
 Blok try finally memungkinkan untuk menguji blok kode untuk kesalahan dan mengeksekusi kode, terlepas dari hasil blok try- dan except
 
@@ -103,7 +103,7 @@ Contoh lainnya:
 	except IOError:
 	    print("ERROR: CANNOT FIND THE FILE OR DATA")
 
-### Raise
+## Raise
 
 kita manfaatkan untuk membantu penangan error adalah dengan menggunakan statement raise yang dapat mengeluarkan error secara sengaja. Biasanya raise ini digunakan bersama dengan if..else atau pemeriksaan kondisi lainnya
 
@@ -120,7 +120,7 @@ Contohnya:
 	print(level(0))
 
 
-### User Defined Exceptions
+## User Defined Exceptions
 
 Contohnya :
 
