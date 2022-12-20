@@ -61,58 +61,59 @@ Contoh:
 	    print("Konten berhasil di-write")
 	    fh.close()
 
-### try-finally
+try-finally
 
 Contoh syntax nya
 
-    	try:
-    	......................
+	try:
+	......................
 
-	    finally:
-	    ......................
+	finally:
+	......................
 
 Contoh penggunaannya:
 
-    	try:
-	        fh = open("testfile","w")
-	        fh.write("Hello :)")
-	    finally:
-	        print("ERROR: CANNOT FIND FILE OR DATA")
+	try:
+	    fh = open("testfile","w")
+	    fh.write("Hello :)")
+	finally:
+	    print("ERROR: CANNOT FIND FILE OR DATA")
 
 Contoh lainnya:
 
+	try:
+	    fh = open("testfile","w")
 	    try:
-	        fh = open("testfile","w")
-	        try:
-	            fh.write("File for exception handling")
-            finally:
-	            print("FILE AKAN DITUTUP")
-	            fh.close()
-	    except IOError:
-	        print("ERROR: CANNOT FIND THE FILE OR DATA")
+	        fh.write("File for exception handling")
+	    finally:
+	        print("FILE AKAN DITUTUP")
+	        fh.close()
+	except IOError:
+	    print("ERROR: CANNOT FIND THE FILE OR DATA")
 
-### Raise
+Raise
 
 Contoh syntax:
 
-	    raise [Exception [, args [, traceback]]]
+	raise [Exception [, args [, traceback]]]
 
 Contohnya:
 
-    	def level(level):
-	        if level < 1 :
-	                raise Exception("Invalid level ! ",level)
+	def level(level):
+	    if level < 1 :
+	        raise Exception("Invalid level ! ",level)
 
-        	print(level(0))
+	print(level(0))
 
-### User Defined Exceptions
+
+User Defined Exceptions
 
 Contohnya :
 
-    	class NetworkError(RuntimeError):
-    	    def __init__(self, arg):
-    	        self.args = arg
-    	try:
-    	    raise NetworkError("Bad Hostname")
-    	except NetworkError as e:
-    	    print (e.args)
+	class NetworkError(RuntimeError):
+	    def __init__(self, arg):
+	        self.args = arg
+	try:
+	    raise NetworkError("Bad Hostname")
+	except NetworkError as e:
+	    print (e.args)
